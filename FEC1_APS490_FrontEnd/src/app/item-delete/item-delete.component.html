@@ -1,0 +1,6 @@
+<h3>Delete an Item</h3>
+<form (ngSubmit)="deleteItem()">
+  <label for="id">Item ID:</label>
+  <input type="number" [(ngModel)]="itemId" name="id" id="id" required>
+  <button type="submit">Delete</button>
+</form>

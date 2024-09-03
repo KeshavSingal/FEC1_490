@@ -1,0 +1,8 @@
+<h3>Update an Item</h3>
+<form (ngSubmit)="updateItem()">
+  <label for="id">Item ID:</label>
+  <input type="number" [(ngModel)]="itemId" name="id" id="id" required>
+  <label for="name">New Item Name:</label>
+  <input type="text" [(ngModel)]="itemName" name="name" id="name" required>
+  <button type="submit">Update</button>
+</form>
