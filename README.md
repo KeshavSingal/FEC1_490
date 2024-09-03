@@ -1,3 +1,4 @@
 # FEC1_490
-FastAPI, Python backend, Angular frontend, Oracle Database 
-Hi There, welcome to our APS490 Project 
+Hi, welcome to our APS490 app 
+It used a Python/FastApi backend, Angular 17 frontend, SQL/oracle DB database 
+To run the app, run uvicorn main:app --reload
